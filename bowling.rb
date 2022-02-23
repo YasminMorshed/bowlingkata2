@@ -1,8 +1,7 @@
 class Bowling
 	def score(rolls)
 		return nil if rolls.nil?
-
-		0
+		return 0 if rolls[0] == nil
 	end
 
 	def score_bowl(roll)
